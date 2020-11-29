@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project"
+        android:textSize="60sp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/red_0_255"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:textSize="60sp"/>
+
+    <EditText
+        android:id="@+id/color_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/blue_0_255"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:textSize="60sp"/>
+
+    <EditText
+        android:id="@+id/color_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/green_0_255"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:textSize="60sp"/>
+
+</LinearLayout>
